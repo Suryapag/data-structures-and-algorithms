@@ -20,13 +20,14 @@ class LinkedList:
                 current_node = current_node.next
             current_node.next = new_node
 
+
     # Print the linked list
     def print_list(self):
         current_node = self.head
         while current_node is not None:
             print(current_node.data)
             current_node = current_node.next
-
+          
 # Create a linked list Obj
 linked_list = LinkedList()
 
@@ -37,3 +38,4 @@ linked_list.add(3)
 
 # Print the linked list
 linked_list.print_list()
+
